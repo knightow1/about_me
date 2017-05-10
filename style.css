@@ -1,0 +1,39 @@
+* {
+  color: #fff;
+  font-family: sans-serif;
+}
+
+header {
+  padding: 30px;
+  background: linear-gradient(to bottom left, #fff, #26FFC8);
+  border: 2px, #7F001D;
+  border-radius: 15px;
+  margin-top: 5px;
+}
+
+header p {
+  color: #FF5A26;
+}
+
+body {
+  background: linear-gradient(to bottom, #7F001D, #FF5A26);
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #FF5A26;
+  font-weight: bold;
+}
+
+p, li {
+  margin-bottom: 20px;
+  font-style: italic;
+  font-size: 18px;
+}
+
+img {
+  margin-top: 15px;
+  border: 1px;
+  border-radius: 20px;
+}
