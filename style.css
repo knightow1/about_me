@@ -5,32 +5,33 @@
 
 header {
   padding: 30px;
-  background: linear-gradient(to bottom left, #fff, #26FFC8);
+  background: linear-gradient(to bottom left, #fff, #26FFFA);
   border: 2px, #7F001D;
   border-radius: 15px;
   margin-top: 5px;
+  font-family: helvetica;
 }
 
 header p {
-  color: #FF5A26;
+  color: #297F13;
+  font-style: normal;
 }
 
 body {
-  background: linear-gradient(to bottom, #7F001D, #FF5A26);
+  background-image: url("https://c1.staticflickr.com/5/4087/4831156195_a338bd1785_b.jpg");
 }
 
 h1 {
   font-size: 40px;
   margin-bottom: 20px;
-  color: #FF5A26;
+  color: #297F13;
   font-weight: bold;
 }
 
 p, li {
   margin-bottom: 20px;
-  font-style: italic;
   font-size: 18px;
-  margin-right: 1000px;
+  width: 1000px;
 }
 
 img {

@@ -18,6 +18,7 @@ while (true) {
     alert('That is not a valid answer.');
   }
 }
+
 while (true){
   var food = prompt('Second question: Is Nick\'s favorite food tacos?').toLowerCase();
 
@@ -33,6 +34,7 @@ while (true){
     alert('That is not a valid answer.');
   }
 }
+
 while (true) {
   var travel = prompt('Third question: Has Nick been to Burma?').toLowerCase();
 
@@ -48,6 +50,7 @@ while (true) {
     alert('That is not a valid answer.');
   }
 }
+
 while (true) {
   var color = prompt('Fourth question: Is Nick\'s favorite color green?').toLowerCase();
 
@@ -63,6 +66,7 @@ while (true) {
     alert('That is not a valid answer.');
   }
 }
+
 while (true) {
   var games = prompt('Last question: Does Nick like to play video games?').toLowerCase();
 
