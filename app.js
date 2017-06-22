@@ -4,8 +4,8 @@ alert('Let\'s play a guessing game to see how well you know Nick.');
 alert('All questions require yes/no or y/n answers.');
 
 while (true) {
+  
   var music = prompt('First question: Does Nick play Jazz?').toLowerCase();
-
   console.log('answer: ', music);
 
   if (music === 'n' || music === 'no') {
@@ -18,9 +18,10 @@ while (true) {
     alert('That is not a valid answer.');
   }
 }
-while (true){
-  var food = prompt('Second question: Is Nick\'s favorite food tacos?').toLowerCase();
 
+while (true){
+
+  var food = prompt('Second question: Is Nick\'s favorite food tacos?').toLowerCase();
   console.log('answer: ', food);
 
   if(food === 'n' || food === 'no') {
@@ -33,9 +34,10 @@ while (true){
     alert('That is not a valid answer.');
   }
 }
-while (true) {
-  var travel = prompt('Third question: Has Nick been to Burma?').toLowerCase();
 
+while (true) {
+
+  var travel = prompt('Third question: Has Nick been to Burma?').toLowerCase();
   console.log('answer: ', travel);
 
   if (travel === 'n' || travel === 'no') {
@@ -48,9 +50,10 @@ while (true) {
     alert('That is not a valid answer.');
   }
 }
-while (true) {
-  var color = prompt('Fourth question: Is Nick\'s favorite color green?').toLowerCase();
 
+while (true) {
+
+  var color = prompt('Fourth question: Is Nick\'s favorite color green?').toLowerCase();
   console.log('answer: ', color);
 
   if (color === 'y' || color === 'yes') {
@@ -63,9 +66,10 @@ while (true) {
     alert('That is not a valid answer.');
   }
 }
-while (true) {
-  var games = prompt('Last question: Does Nick like to play video games?').toLowerCase();
 
+while (true) {
+
+  var games = prompt('Last question: Does Nick like to play video games?').toLowerCase();
   console.log('answer: ', games);
 
   if (games === 'y' || games === 'yes') {
